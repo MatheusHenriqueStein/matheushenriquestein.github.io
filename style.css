@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+#menu li a {
+  color: #333333;
+}
+#menu li a:hover {
+  color: blue;
+}
+
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-image: url("https://picsum.photos/1500/600?grayscale");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 85px 2px black;
+}
+
+header {
+  width: 100%;
+}
+header h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #333333;
+  color: white;
+  margin: 0;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
+
+main {
+  margin: auto;
+  flex-direction: column;
+}
+main section {
+  padding-top: 60px;
+}
+main ul {
+  list-style: none;
+}
+main a {
+  text-decoration: none;
+}
+main h3 {
+  padding: 40px 0px 0px 0px;
+}
+main #sobremim {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 800px;
+}
+main #sobremim p {
+  text-align: justify;
+}
+main #sobremim div {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  margin-top: 30px;
+}
+main #sobremim div img {
+  width: 400px;
+  height: 300px;
+}
+main #formacao {
+  display: flex;
+  flex-direction: column;
+}
+main #formacao #container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+main #formacao #container img {
+  height: 300px;
+  width: 300px;
+}
+main #formacao #container .square1 {
+  flex: 1;
+  display: flex;
+  background-color: #eee;
+  justify-content: center;
+  align-items: center;
+}
+main #formacao #container .square1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+main #formacao #container .square1 .img1 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+main #formacao #container .square2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #c0c0c0;
+  flex: 1;
+}
+main #formacao #container .square2 .text {
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+main #formacao #container .square2 .img2 {
+  flex: 1;
+  padding: 20px;
+}
+main #hobbies {
+  padding-top: 0px;
+}
+main #hobbies ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+main #hobbies li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  min-width: 180px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #707070;
+}
+main #hobbies li:hover {
+  background-color: #333333;
+}
+main #hobbies li a {
+  font-size: 12px;
+  color: white;
+}
+main #hobbies .imagens {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+}
+main #hobbies .imagens img {
+  flex: 1;
+}
+main #hobbies .youtube {
+  display: flex;
+  width: 100%;
+  margin-bottom: 30px;
+  height: 400px;
+}
+main #hobbies .youtube iframe {
+  padding: 10px;
+  flex: 1;
+}
+main #contato div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  height: 200px;
+  margin-top: 100px;
+}/*# sourceMappingURL=style.css.map */
